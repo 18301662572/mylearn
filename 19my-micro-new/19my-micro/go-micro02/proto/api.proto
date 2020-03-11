@@ -1,0 +1,22 @@
+syntax="proto3";
+
+//定义请求和响应的参数
+message CallRequest{
+    string name=1;
+}
+
+message CallResponse{
+    string message=2;
+}
+
+message EmptyRequest{}
+
+message EmptyResponse{}
+
+service Example{
+    rpc Call(CallRequest) returns (CallResponse){}
+}
+
+service Foo{
+    rpc Bar(EmptyRequest) returns (EmptyResponse){}
+}

@@ -1,0 +1,27 @@
+{{define "templates/updateuser.html"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UpdataUser</title>
+</head>
+<body>
+<form method="post" action="/user/update">
+    <div>用户详情</div>
+    <div>
+        <label>序号：
+            <input type="text" name="id" readonly="readonly" value="{{.ID}}">
+        </label>
+        <label>用户名：
+            <input type="text" name="name" value="{{.Name}}">
+        </label>
+        <label>年龄：
+            <input type="text" name="age" value="{{.Age}}">
+        </label>
+        <!--必须要有提交按钮-->
+        <input type="submit" value="提交">
+    </div>
+</form>
+</body>
+</html>
+{{end}}

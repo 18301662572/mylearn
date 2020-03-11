@@ -1,0 +1,36 @@
+{{define "templates/userlist.html"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UserList</title>
+</head>
+<body>
+    <div>UserList</div>
+    <img src="/user/jtym/images/TIM.png" alt="Game">
+    <div><a href="/user/add">添加用户</a> </div>
+    <table>
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>用户名</th>
+                <th>年龄</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{range .data }}
+                <tr>
+                    <td>{{.ID}}</td>
+                    <td>{{.Name}}</td>
+                    <td>{{.Age}}</td>
+                    <td><a href="/user/update?id={{.ID}}">修改</a> | <a href="/user/delete?id={{.ID}}">删除</a></td>
+                </tr>
+            {{end}}
+        </tbody>
+    </table>
+</body>
+</html>
+{{end}}

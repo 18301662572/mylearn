@@ -1,0 +1,65 @@
+syntax="proto3";
+
+package pb;
+
+//定义需要的结构体
+
+//定义用户
+message User{
+    int32 id=1;
+    string name=2;
+    string address=3;
+    string phone=4;
+}
+
+//增
+message InsertUserReq{
+    int32 id=1;
+    string name=2;
+    string address=3;
+    string phone=4;
+}
+
+message InsertUserResp{
+    int32 id=1;
+    string name=2;
+    string address=3;
+    string phone=4;
+}
+
+//删
+message DeleteUserReq{
+    int32 id=1;
+}
+
+message DeleteUserResp{
+}
+
+//改
+message ModifyUserReq{
+    int32 id=1;
+    string name=2;
+    string address=3;
+    string phone=4;
+}
+
+message ModifyUserResp{
+}
+
+//查
+message SelectUserReq{
+    int32 id=1;
+}
+
+message SelectUserResp{
+    User users=1;
+}
+
+//定义接口和方法
+service UserService{
+    //增删改查
+    rpc InsertUser(InsertUserReq) returns (InsertUserResp){}
+    rpc DeleteUser(DeleteUserReq) returns (DeleteUserResp){}
+    rpc ModifyUser(ModifyUserReq) returns (ModifyUserResp){}
+    rpc SelectUser(SelectUserReq) returns (SelectUserResp){}
+}
