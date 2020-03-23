@@ -1,0 +1,15 @@
+syntax="proto3";
+package pb;
+
+message String{
+    string Value=1;
+}
+
+
+
+//方法
+service HelloService {
+    rpc Hello (String) returns (String);
+    //关键字stream指定启用流特性，参数部分是接收客户端参数的流，返回值是返回给客户端的流。
+    rpc Channel (stream String) returns (stream String);    //stream 支持双向流 Send(),Recv()
+}

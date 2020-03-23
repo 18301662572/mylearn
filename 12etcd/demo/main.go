@@ -10,6 +10,21 @@ import (
 //代码连接etcd
 //重命名exe: go build -o rename.exe
 
+//http访问 （修改key）：
+//curl http://192.168.42.138:2379/v2/keys/collect_log_192.168.42.133_conf
+// -XPUT -d value="[{"path":"g:/logs/s4.log","topic":"test_log"}]"
+
+//{
+//"action": "set",
+//"node": {
+//"createdIndex": 1,
+//"key": "/collect_log_192.168.42.133_conf",
+//"modifiedIndex": 1,
+//"value": "[{"path":"g:/logs/s4.log","topic":"test_log"},{"path":"g:/logs/s2.log","topic":"web_log"},{"path":"g:/logs/new1.log","topic":"new1_log"}]"
+//}
+//}
+
+
 func bodymain() {
 	cli, err := clientv3.New(clientv3.Config{
 		Endpoints:   []string{"192.168.42.138:2379"}, // Linux服务器 // []string{"192.168.42.133:2379"}, //Windows服务器
@@ -59,7 +74,8 @@ func test() {
 	//strJson := `[{"path":"g:/logs/s4.log","topic":"test_log"},{"path":"g:/logs/s2.log","topic":"web_log"}]`
 	//strJson := `[{"path":"g:/logs/s4.log","topic":"test_log"},{"path":"g:/logs/s2.log","topic":"web_log"},{"path":"g:/logs/new.log","topic":"new_log"}]`
 	strJson := `[{"path":"g:/logs/s4.log","topic":"test_log"},{"path":"g:/logs/s2.log","topic":"web_log"},{"path":"g:/logs/new1.log","topic":"new1_log"}]`
-	_, err = cli.Put(ctx, "collect_log_conf", strJson)
+	//_, err = cli.Put(ctx, "collect_log_conf", strJson)
+	_, err = cli.Put(ctx, "collect_log_192.168.42.133_conf", strJson)
 	if err != nil {
 		fmt.Printf("put to etcd failed,err:%v\n", err)
 		return
@@ -81,6 +97,6 @@ func test() {
 }
 
 func main() {
-	bodymain()
-	//test()
+	//bodymain()
+	test()
 }

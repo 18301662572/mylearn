@@ -1,3 +1,8 @@
+```text
+logAgent-日志收集系统架构图（Log Agent -> Kafka ->log transfer->ES->Kibana->浏览器）
+sysAgent-系统信息收集架构图 （Sys Agent（gopsutil包收集服务器性能信息）->Kafka->sys transfer->influxDB->Grafana->浏览器） 
+```
+
 ### 1.**log Agent流程梳理**
 
 详情图片见“images/*” （包含日志收集系统总的架构图）
@@ -54,3 +59,5 @@ logagent
 
 ​注：ELK-->  ES+ Logstash + Kibana
 ```
+
+

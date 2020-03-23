@@ -11,8 +11,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="HTML File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -29,11 +29,12 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/24gameproc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\25rpc\1net-rpc\server" />
       <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\23websocket\test1" />
     </key>
   </component>
@@ -49,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build code.oldbody.com/studygolang/mylearn/25rpc/1net-rpc/client">
     <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="mylearn" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -57,11 +58,29 @@
       <filePath value="$PROJECT_DIR$/23websocket/client/client.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build code.oldbody.com/studygolang/mylearn/25rpc/1net-rpc/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mylearn" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/25rpc/1net-rpc/client/rpc_client.go" />
+      <package value="code.oldbody.com/studygolang/mylearn/25rpc/1net-rpc/client" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="mylearn" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/23websocket/demo/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build rpc_server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mylearn" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/25rpc/1net-rpc/server/rpc_server.go" />
+      <package value="code.oldbody.com/studygolang/mylearn" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -73,6 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build code.oldbody.com/studygolang/mylearn/25rpc/1net-rpc/client" />
+        <item itemvalue="Go Build.go build rpc_server.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build server.go" />
       </list>

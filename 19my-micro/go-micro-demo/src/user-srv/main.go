@@ -50,6 +50,7 @@ func main() {
 	//4.启动service
 	if err := service.Run(); err != nil {
 		//logger.Panic("user-srv服务启动失败...")
+		fmt.Printf("err:\n",err)
 		logger.Info("user-srv服务启动失败...")
 	}
 }

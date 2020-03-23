@@ -1,0 +1,18 @@
+syntax = "proto3";
+package hello_pb;
+
+import "github.com/chai2010/pbgo/pbgo.proto";
+
+message String {
+    string value = 1;
+}
+//在REST方法的路径中采用了httprouter路由包的语法规则，
+//”:value”表示路径中的该字段对应的是参数中同名的成员。
+service HelloService {
+
+    rpc Hello (String) returns (String) {
+        option (pbgo.rest_api) = {
+            get: "/hello/:value"
+        };
+    }
+}

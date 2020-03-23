@@ -38,7 +38,7 @@ func GetLocalIP() (ip string, err error) {
 	return
 }
 
-// 获取ip
+// 获取ip （常用的）
 func GetOutboundIP() string {
 	conn, err := net.Dial("udp", "8.8.8.8:80")
 	if err != nil {
