@@ -56,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build code.oldbody.com/studygolang/mylearn/25rpc/13pbgo">
+  <component name="RunManager" selected="Go Build.go build code.oldbody.com/studygolang/mylearn/25rpc/12grpc-rest/grpc-gateway">
     <configuration name="go build code.oldbody.com/studygolang/mylearn/25rpc/12grpc-rest/grpc-gateway" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="25rpc" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -104,8 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build code.oldbody.com/studygolang/mylearn/25rpc/13pbgo" />
         <item itemvalue="Go Build.go build code.oldbody.com/studygolang/mylearn/25rpc/12grpc-rest/grpc-gateway" />
+        <item itemvalue="Go Build.go build code.oldbody.com/studygolang/mylearn/25rpc/13pbgo" />
         <item itemvalue="Go Build.go build code.oldbody.com/studygolang/mylearn/25rpc/12grpc-rest/grpc-server" />
         <item itemvalue="Go Build.go build code.oldbody.com/studygolang/mylearn/25rpc/6grpc-stream/server" />
         <item itemvalue="Go Build.go build server.go" />
