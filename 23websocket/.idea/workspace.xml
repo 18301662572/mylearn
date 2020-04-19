@@ -11,8 +11,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -28,19 +28,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../learnstuday" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\23websocket\test3" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\23websocket\test5\src\websocketpro\static\js" />
       <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\23websocket\test3\websocket" />
       <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\23websocket\test3\http" />
       <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\23websocket\image" />
       <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\23websocket\test2\client\html" />
-      <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\23websocket\test2\client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\23websocket\test3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -55,13 +56,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RunManager" selected="Go Build.go build code.oldbody.com/studygolang/mylearn/23websocket/test5/src/websocketpro">
     <configuration name="go build code.oldbody.com/studygolang/mylearn/23websocket/test3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="23websocket" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/test3/websocket.go" />
       <package value="code.oldbody.com/studygolang/mylearn/23websocket/test3" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build code.oldbody.com/studygolang/mylearn/23websocket/test5/src/websocketpro" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="23websocket" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/test5/src/websocketpro/main.go" />
+      <package value="code.oldbody.com/studygolang/mylearn/23websocket/test5/src/websocketpro" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -83,25 +93,16 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="23websocket" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/demo/main.go" />
-      <package value="code.oldbody.com/studygolang/mylearn/23websocket" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="websocket.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/23websocket/test2/client/html/websocket.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build code.oldbody.com/studygolang/mylearn/23websocket/test5/src/websocketpro" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build code.oldbody.com/studygolang/mylearn/23websocket/test3" />
         <item itemvalue="JavaScript Debug.websocket.html" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>

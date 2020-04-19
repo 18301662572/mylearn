@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba06d68b-db13-4a66-93de-bbf333cd822e" name="默认的" comment="" />
+    <list default="true" id="517d7d89-ce9a-4fa9-a7a0-690f5034fcb6" name="默认的" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,16 +9,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="GOROOT" path="C:\Go" />
-  <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
-  </component>
-  <component name="ProjectId" id="1ZQUVgptI4mebbVQ22v5kX7490f" />
+  <component name="ProjectId" id="1Zkess76cbzlMC6McE7YXVJ2iSO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../demo(rpc)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../web" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

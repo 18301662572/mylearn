@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dd7671e-413b-4408-aa9d-7f15ccc7ed6b" name="Default Changelist" comment="" />
+    <list default="true" id="791ec9eb-1402-425e-a503-66609e4376a3" name="默认的" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,19 +16,20 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
-  <component name="ProjectId" id="1TryivNAxdDddhUM6JVk3IGxpwT" />
+  <component name="ProjectId" id="1akjg3N4SeQCTbidU4q4UIdIoJP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../.." />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Learn\Go\GOWork\src\code.oldbody.com\studygolang\mylearn\12etcd\demo" />
+      <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\26pa\email" />
+      <recent name="G:\GOWork\src\code.oldbody.com\studygolang\mylearn\26pa\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -43,19 +44,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="12etcd" />
-      <working_directory value="$PROJECT_DIR$/demo" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/demo/main.go" />
-      <package value="code.oldbody.com/studygolang/mylearn/12etcd" />
-      <directory value="$PROJECT_DIR$/" />
+  <component name="RunManager" selected="Go Build.go build code.oldbody.com/studygolang/mylearn/26pa/img">
+    <configuration name="go build code.oldbody.com/studygolang/mylearn/26pa" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="26pa" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/paemail.go" />
+      <package value="code.oldbody.com/studygolang/mylearn/26pa" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build code.oldbody.com/studygolang/mylearn/26pa/img" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="26pa" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/img/paimg.go" />
+      <package value="code.oldbody.com/studygolang/mylearn/26pa/img" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build code.oldbody.com/studygolang/mylearn/26pa/img" />
+        <item itemvalue="Go Build.go build code.oldbody.com/studygolang/mylearn/26pa" />
       </list>
     </recent_temporary>
   </component>
@@ -71,9 +80,5 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
-    <proxy>https://goproxy.cn</proxy>
   </component>
 </project>
